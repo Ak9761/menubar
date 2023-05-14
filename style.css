@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  display: flex;
+  gap: 380px;
+  font-size: 25px;
+  list-style: none;
+  margin-left: 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  background-color: green;
+}
+#menu{
+  font-size: 30px;
+  float: right;
+  display: none;
+}
+#closeicon{
+  display: none;
+  float: right;
+}
+@media (max-width:700px) {
+  nav ul{
+    display: none;
+  }
+  #menu{
+    display: block;
+  }
+  
+}
